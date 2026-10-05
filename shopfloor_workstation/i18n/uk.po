@@ -84,3 +84,15 @@ msgstr "Цей штрихкод уже використовується."
 #: model:ir.model.constraint,message:shopfloor_workstation.constraint_shopfloor_workstation_name_unique
 msgid "This name is already in use."
 msgstr "Ця назва вже використовується."
+
+#. module: shopfloor_workstation
+#. odoo-python
+#: code:addons/shopfloor_workstation/services/workstation.py:0
+msgid "Default workstation set to {}"
+msgstr "Типову робочу станцію встановлено: {}"
+
+#. module: shopfloor_workstation
+#. odoo-python
+#: code:addons/shopfloor_workstation/services/workstation.py:0
+msgid "Workstation not found"
+msgstr "Робочу станцію не знайдено"

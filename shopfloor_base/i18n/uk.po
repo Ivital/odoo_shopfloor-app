@@ -404,3 +404,31 @@ msgstr "Видимо лише в цьому профілі"
 #: model:ir.model.constraint,message:shopfloor_base.constraint_shopfloor_app_tech_name
 msgid "tech_name must be unique"
 msgstr "tech_name має бути унікальним"
+
+#. module: shopfloor_base
+#. odoo-python
+#: code:addons/shopfloor_base/services/forms/form_mixin.py:0
+msgid "%(model)s updated."
+msgstr "%(model)s оновлено."
+
+#. module: shopfloor_base
+#. odoo-python
+#: code:addons/shopfloor_base/actions/message.py:0
+msgid "Record not found."
+msgstr "Запис не знайдено."
+
+#. module: shopfloor_base
+#. odoo-python
+#: code:addons/shopfloor_base/services/scan_anything.py:0
+msgid ""
+"Record not found.\n"
+"We've tried with the following types: %(tried)s"
+msgstr ""
+"Запис не знайдено.\n"
+"Ми спробували такі типи: %(tried)s"
+
+#. module: shopfloor_base
+#. odoo-python
+#: code:addons/shopfloor_base/services/service.py:0
+msgid "The record %(model)s %(id)s does not exist"
+msgstr "Запис %(model)s %(id)s не існує"
