@@ -74,3 +74,13 @@ msgstr "Профіль виробничої дільниці"
 #: model:ir.model.fields,field_description:shopfloor_workstation.field_shopfloor_workstation__printing_printer_id
 msgid "Standard Printer"
 msgstr "Стандартний принтер"
+
+#. module: shopfloor_workstation
+#: model:ir.model.constraint,message:shopfloor_workstation.constraint_shopfloor_workstation_barcode_unique
+msgid "This barcode is already in use."
+msgstr "Цей штрихкод уже використовується."
+
+#. module: shopfloor_workstation
+#: model:ir.model.constraint,message:shopfloor_workstation.constraint_shopfloor_workstation_name_unique
+msgid "This name is already in use."
+msgstr "Ця назва вже використовується."

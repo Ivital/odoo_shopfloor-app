@@ -306,3 +306,101 @@ msgstr "Профілі та пункти меню"
 #: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__registered_routes
 msgid "Registered Routes"
 msgstr "Зареєстровані маршрути"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,help:shopfloor_base.field_shopfloor_scenario__options_edit
+msgid "Configure options via JSON"
+msgstr "Налаштувати параметри через JSON"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,help:shopfloor_base.field_shopfloor_menu__scenario_key
+#: model:ir.model.fields,help:shopfloor_base.field_shopfloor_scenario__key
+msgid ""
+"Identify scenario univocally. This value must match a service component's "
+"`usage`."
+msgstr ""
+"Однозначно ідентифікує сценарій. Це значення має відповідати `usage` "
+"компонента сервісу."
+
+#. module: shopfloor_base
+#: model:ir.model.fields,help:shopfloor_base.field_shopfloor_app__lang_id
+msgid "If set, the app will be first loaded with this lang."
+msgstr "Якщо задано, застосунок спочатку завантажиться цією мовою."
+
+#. module: shopfloor_base
+#: model:ir.model,name:shopfloor_base.model_shopfloor_menu
+msgid "Menu displayed in the scanner application"
+msgstr "Меню, що відображається у застосунку сканера"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,help:shopfloor_base.field_shopfloor_profile__menu_ids
+msgid "Menus visible for this profile"
+msgstr "Меню, видимі для цього профілю"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,help:shopfloor_base.field_shopfloor_app__short_name
+msgid "Needed for app manifest"
+msgstr "Потрібно для маніфесту застосунку"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,help:shopfloor_base.field_shopfloor_app__profile_ids
+msgid ""
+"Profiles used by this app. This will determine menu items too.However this "
+"field is not required in case you don't need profiles and menu items from "
+"the backend."
+msgstr ""
+"Профілі, які використовує ця програма. Вони також визначають пункти меню. Це"
+" поле не обов’язкове, якщо вам не потрібні профілі та пункти меню з бекенду."
+
+#. module: shopfloor_base
+#: model:ir.model.fields,help:shopfloor_base.field_shopfloor_app__api_docs_url
+msgid "Public URL for api docs."
+msgstr "Публічна URL-адреса документації API."
+
+#. module: shopfloor_base
+#: model:ir.model.fields,help:shopfloor_base.field_shopfloor_app__url
+msgid "Public URL to use the app."
+msgstr "Публічна URL-адреса для використання застосунку."
+
+#. module: shopfloor_base
+#: model:ir.model.constraint,message:shopfloor_base.constraint_shopfloor_scenario_key
+msgid "Scenario key must be unique"
+msgstr "Ключ сценарію має бути унікальним"
+
+#. module: shopfloor_base
+#: model:res.groups,name:shopfloor_base.group_shopfloor_manager
+msgid "Shopfloor Manager"
+msgstr "Менеджер Shopfloor"
+
+#. module: shopfloor_base
+#: model:ir.model,name:shopfloor_base.model_shopfloor_scenario
+msgid "Shopfloor Scenario"
+msgstr "Сценарій Shopfloor"
+
+#. module: shopfloor_base
+#: model:res.groups,name:shopfloor_base.group_shopfloor_user
+msgid "Shopfloor User"
+msgstr "Користувач Shopfloor"
+
+#. module: shopfloor_base
+#: model:ir.model,name:shopfloor_base.model_shopfloor_profile
+msgid "Shopfloor profile settings"
+msgstr "Налаштування профілю Shopfloor"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,help:shopfloor_base.field_shopfloor_app__registered_routes
+msgid ""
+"Technical field to allow developers to check registered routes on the form"
+msgstr ""
+"Технічне поле, що дає розробникам змогу перевіряти зареєстровані маршрути у "
+"формі"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,help:shopfloor_base.field_shopfloor_menu__profile_id
+msgid "Visible on this profile only"
+msgstr "Видимо лише в цьому профілі"
+
+#. module: shopfloor_base
+#: model:ir.model.constraint,message:shopfloor_base.constraint_shopfloor_app_tech_name
+msgid "tech_name must be unique"
+msgstr "tech_name має бути унікальним"

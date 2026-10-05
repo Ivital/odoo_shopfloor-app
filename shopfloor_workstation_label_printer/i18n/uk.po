@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:shopfloor_workstation_label_printer.field_shopfloor_workstation__default_label_printer_id
 msgid "Default Label Printer"
 msgstr "Типовий принтер етикеток"
+
+#. module: shopfloor_workstation_label_printer
+#: model:ir.model,name:shopfloor_workstation_label_printer.model_shopfloor_workstation
+msgid "Shopfloor workstation settings"
+msgstr "Налаштування робочої станції Shopfloor"
