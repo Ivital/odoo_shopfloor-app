@@ -29,3 +29,13 @@ msgstr "Журнали"
 #: model_terms:ir.ui.view,arch_db:shopfloor_rest_log.rest_log_search_view
 msgid "Real user"
 msgstr "Реальний користувач"
+
+#. module: shopfloor_rest_log
+#: model_terms:ir.ui.view,arch_db:shopfloor_rest_log.rest_log_search_view
+msgid "App version"
+msgstr "Версія застосунку"
+
+#. module: shopfloor_rest_log
+#: model_terms:ir.ui.view,arch_db:shopfloor_rest_log.shopfloor_app_form_view
+msgid "View logs"
+msgstr "Переглянути журнали"

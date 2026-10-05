@@ -54,3 +54,13 @@ msgstr "Назва"
 #: model:ir.ui.menu,name:shopfloor_workstation.menu_action_shopfloor_workstation
 msgid "Workstation"
 msgstr "Робоча станція"
+
+#. module: shopfloor_workstation
+#: model:ir.model.fields,field_description:shopfloor_workstation.field_shopfloor_workstation__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: shopfloor_workstation
+#: model:ir.model.fields,field_description:shopfloor_workstation.field_shopfloor_workstation__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

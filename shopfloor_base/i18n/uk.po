@@ -163,3 +163,113 @@ msgstr "Технічна назва"
 #: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__url
 msgid "Url"
 msgstr "URL"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__api_docs_url
+msgid "Api Docs Url"
+msgstr "URL документації API"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_form_view
+msgid "Auth"
+msgstr "Автентифікація"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__lang_id
+msgid "Default language"
+msgstr "Мова за замовчуванням"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_form_view
+msgid "Developer"
+msgstr "Розробник"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_search_view
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_menu_search_view
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__write_uid
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_menu__write_uid
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_profile__write_uid
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_scenario__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__write_date
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_menu__write_date
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_profile__write_date
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_scenario__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_form_view
+msgid "Main"
+msgstr "Основний"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_menu_form_view
+msgid "Menu Options"
+msgstr "Параметри меню"
+
+#. module: shopfloor_base
+#: model:ir.model.fields.selection,name:shopfloor_base.selection__shopfloor_app__category__
+msgid "None"
+msgstr "Немає"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_form_view
+msgid "Open app"
+msgstr "Відкрити застосунок"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_scenario__options_edit
+msgid "Options Edit"
+msgstr "Редагування параметрів"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__registry_sync
+msgid "Registry Sync"
+msgstr "Синхронізація реєстру"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_form_view
+msgid ""
+"Registry out of sync. Likely the record has been modified but not sync'ed "
+"with the routing registry."
+msgstr ""
+"Реєстр не синхронізований. Ймовірно, запис змінено, але не синхронізовано з "
+"реєстром маршрутизації."
+
+#. module: shopfloor_base
+#: model:ir.actions.server,name:shopfloor_base.server_action_registry_sync
+msgid "Sync registry"
+msgstr "Синхронізувати реєстр"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_search_view
+msgid "To sync"
+msgstr "До синхронізації"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_form_view
+msgid ""
+"Use the action \"Sync registry\" to make changes effective once you are done"
+" with edits and creates."
+msgstr ""
+"Скористайтеся дією «Синхронізувати реєстр», щоб застосувати зміни після "
+"завершення редагування та створення."
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_form_view
+msgid "View api docs"
+msgstr "Переглянути документацію API"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_form_view
+msgid "View menu items"
+msgstr "Переглянути пункти меню"
