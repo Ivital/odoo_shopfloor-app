@@ -1,0 +1,165 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__active
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_menu__active
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_profile__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_search_view
+msgid "All"
+msgstr "Усі"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__api_route
+msgid "Api Route"
+msgstr "Маршрут API"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__app_version
+msgid "App Version"
+msgstr "Версія застосунку"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_form_view
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_menu_form_view
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_menu_search_view
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_profile_form_view
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_profile_search_view
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__auth_type
+msgid "Auth Type"
+msgstr "Тип автентифікації"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__category
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_search_view
+msgid "Category"
+msgstr "Категорія"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__create_uid
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_menu__create_uid
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_profile__create_uid
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_scenario__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__create_date
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_menu__create_date
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_profile__create_date
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_scenario__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__display_name
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_menu__display_name
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_profile__display_name
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_scenario__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_menu__scenario_key
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_scenario__key
+msgid "Key"
+msgstr "Ключ"
+
+#. module: shopfloor_base
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_app_form_view
+msgid "Language"
+msgstr "Мова"
+
+#. module: shopfloor_base
+#: model:ir.actions.act_window,name:shopfloor_base.action_shopfloor_menu
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_profile__menu_ids
+#: model:ir.ui.menu,name:shopfloor_base.menu_action_shopfloor_menu
+msgid "Menus"
+msgstr "Меню"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__name
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_menu__name
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_profile__name
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_scenario__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_scenario__options
+msgid "Options"
+msgstr "Параметри"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_menu__profile_id
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_menu_search_view
+msgid "Profile"
+msgstr "Профіль"
+
+#. module: shopfloor_base
+#: model:ir.actions.act_window,name:shopfloor_base.action_shopfloor_profile
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__profile_ids
+#: model:ir.ui.menu,name:shopfloor_base.menu_action_shopfloor_profile
+msgid "Profiles"
+msgstr "Профілі"
+
+#. module: shopfloor_base
+#: model:ir.actions.act_window,name:shopfloor_base.action_shopfloor_scenario
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_menu__scenario_id
+#: model:ir.ui.menu,name:shopfloor_base.menu_action_shopfloor_scenario
+#: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_menu_search_view
+msgid "Scenario"
+msgstr "Сценарій"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_menu__sequence
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_profile__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: shopfloor_base
+#: model:ir.module.category,name:shopfloor_base.module_category_shopfloor
+#: model:ir.ui.menu,name:shopfloor_base.menu_shopfloor_root
+msgid "Shopfloor"
+msgstr "Виробничий цех"
+
+#. module: shopfloor_base
+#: model:ir.actions.act_window,name:shopfloor_base.action_shopfloor_app
+#: model:ir.ui.menu,name:shopfloor_base.menu_action_shopfloor_app
+msgid "Shopfloor apps"
+msgstr "Застосунки цеху"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__short_name
+msgid "Short Name"
+msgstr "Коротка назва"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__tech_name
+msgid "Tech Name"
+msgstr "Технічна назва"
+
+#. module: shopfloor_base
+#: model:ir.model.fields,field_description:shopfloor_base.field_shopfloor_app__url
+msgid "Url"
+msgstr "URL"
