@@ -64,3 +64,13 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:shopfloor_workstation.field_shopfloor_workstation__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: shopfloor_workstation
+#: model:ir.model.fields,field_description:shopfloor_workstation.field_shopfloor_workstation__shopfloor_profile_id
+msgid "Shopfloor Profile"
+msgstr "Профіль виробничої дільниці"
+
+#. module: shopfloor_workstation
+#: model:ir.model.fields,field_description:shopfloor_workstation.field_shopfloor_workstation__printing_printer_id
+msgid "Standard Printer"
+msgstr "Стандартний принтер"
